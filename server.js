@@ -5,7 +5,7 @@ var port = 4000
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {'Content-Type': 'text/plain'})
   //response.end('Hello World: This content is from master branch via KANIKO Build latest 12/23 \n')
-  response.end('Hello World: This content is from master branch via KANIKO Build latest 01/12/2021 \n')
+  response.end('Hello World: This content is from master branch via KANIKO Build latest 01/12/2021 (deploy)\n')
 })
 
 server.listen(port)
